@@ -46,3 +46,11 @@ body.darkmode{
 .darkmode #p-nosotros{
     color: #0080ff;
 }
+
+.darkmode #a-login{
+    color: white;
+}
+
+.darkmode .div-areas a{
+    color: blueviolet;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -363,8 +365,8 @@ iframe{
     
   }
 
-
-@media only screen and (max-width: 600px){
+/* only */
+@media  screen and (max-width: 540px){
     
     .contenido{
         display: grid;
@@ -388,23 +390,82 @@ iframe{
     .sesion a{
         font-size: 0.7rem;
     }
+   .container-modal{
+     width: 15rem;
+     height: 23rem;
+   }
+   .content-modal{
+    width: 13rem;
+    height: 18rem;
+    font-size: 0.8rem;
+    padding: 5px;
+    
+   }
+  
+   .content-modal a{
+    font-size: 11pt;
+   }
+   .content-modal #hr-area{
+    width: 11px;
+   }
    
 }  
+@media  screen and (min-width: 542px) and (max-width: 912px){
 
-@media all and (min-width: 320px) and (max-width: 767px){
+  
     .contenido{
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        gap: 0.4rem;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        flex-wrap: wrap;
+        width: 3rem;
+        margin:1.2rem 0 0.8rem 0;
+
     }
-}
-/* @media all and (min-width: 768) and(max-width:800px){
+    
+    .logo{
+        width: 50px;
+        height: 20px;
+    }
+    .div-logo img{
+        width:5rem;
+        height:6rem;
+    }
+    .sesion a{
+        font-size: 0.7rem;
+    }
+   
+} 
+@media  screen and (min-width: 915px) and (max-width: 1280px){
+
+  
     .contenido{
         display: grid;
-        grid-template-columns: repeat(3, 2fr);
-    }
-} */
+        gap: 0.4rem;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        flex-wrap: wrap;
+        width: 3rem;
+        margin:1.2rem 0 0.8rem 0;
 
-@media all and (min-width: 1024px){
+    }
+    
+    .logo{
+        width: 50px;
+        height: 20px;
+    }
+    .div-logo img{
+        width:5rem;
+        height:6rem;
+    }
+    .sesion a{
+        font-size: 0.7rem;
+    }
+   
+} 
+
+@media screen and (min-width: 1282px){
     .logo{
         margin-left: 50px;
     }
